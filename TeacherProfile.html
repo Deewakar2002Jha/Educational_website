@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeacherProfile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <!-- header section start Here -->
+   <header class="header">
+      <section class="flex">
+            <a href="index.html" class="logo" style="color: #bf9c60;">KnowledgeHub</a>
+
+            <form action="search.html" method="post" class="search-form">
+               <input type="text" name="search_box" required placeholder="search movies...." maxlength="100">
+               <button type="submit" class="fas fa-search"></button>
+            </form>
+            <div class="icons">
+               <div id="menu-btn" class="fas fa-bars"></div>
+               <div id="search-btn" class="fas fa-search"></div>
+               <div id="user-btn" class="fas fa-user"></div>
+               <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+            <div class="profile">
+               <img src="image/profil.jpg" class="image" alt="" >
+               <h3 class="name">Deewakar Jha</h3>
+               <span class="role">student</span>
+               <a href="profile.html" class="btn">view profile</a>
+               <div class="flex-btn">
+                  <a href="login.html" class="option-btn">login</a>
+                  <a href="register.html" class="option-btn">register</a>
+               </div>
+            </div>
+      </section>
+   </header>
+<!-- header section ends Here -->
+<section class="teacher-profile">
+
+   <h1 class="heading">profile details</h1>
+
+   <div class="details">
+      <div class="tutor">
+         <img src="image/profil.jpg" alt="">
+         <h3>john deo</h3>
+         <span>developer</span>
+      </div>
+      <div class="flex">
+         <p>total playlists : <span>4</span></p>
+         <p>total videos : <span>18</span></p>
+         <p>total likes : <span>1208</span></p>
+         <p>total comments : <span>52</span></p>
+      </div>
+   </div>
+
+</section>
+
+<section class="courses">
+
+   <h1 class="heading">our courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="thumb">
+            <img src="image/playlist/HTML PLAYLIST VIDEO/1.jpg" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete HTML tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="image/home/css.jpg" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete CSS tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="image/home/js.jpg" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete javascript tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="thumb">
+            <img src="image/home/bootstrap-5.avif" alt="">
+            <span>10 videos</span>
+         </div>
+         <h3 class="title">complete Boostrap tutorial</h3>
+         <a href="playlist.html" class="inline-btn">view playlist</a>
+      </div>
+
+   </div>
+
+</section>
+<!-- side bar section start here -->
+<div class="side-bar">
+   <div class="close-side-bar">
+      <i class="fa fa-times"></i>
+   </div>
+         <div class="profile">
+            <img src="image/profil.jpg" class="image" alt="" Style="width:200px; height:150px;" >
+            <h3 class="name">Deewakar Jha</h3>
+            <span class="role">student</span>
+            <a href="profile.html" class="btn">view profile</a>
+         </div>
+         <nav class="navbar">
+            <a href="index.html"><i class="fa fa-home"></i><span>home</span></a>
+            <a href="about.html"><i class="fa fa-question"></i><span>about</span></a>
+            <a href="courses.html"><i class="fa fa-graduation-cap"></i><span>courses</span></a>
+            <a href="teachers.html"><i class="fa fa-chalkboard-user"></i><span>teachers</span></a>
+            <a href="contact.html"><i class="fa fa-headset"></i><span>contact us</span></a>
+         </nav>
+</div>
+<!-- side bar section ends here -->
+<!-- footersection start here -->
+   <footer class="footer">
+      Footer section
+   </footer>
+<!-- footersection ends here -->
+<script src="js/script.js"></script>
+</body>
+</html>
